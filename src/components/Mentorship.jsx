@@ -57,9 +57,9 @@ const Mentorship = () => {
                             className="w-full h-full object-cover object-top"
                             loading="lazy"
                             decoding="async"
-                        />
 
-                        style={{ objectPosition: 'center 10%' }}
+                            style={{ objectPosition: 'center 10%' }}
+                        />
                     </div>
                 </div>
 
