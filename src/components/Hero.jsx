@@ -11,7 +11,7 @@ const Hero = () => {
           loading="lazy"
           decoding="async"
 
-          style={{ objectPosition: 'center 30%' }}
+          style={{ objectPosition: 'center 20%' }}
         />
       </div>
 
