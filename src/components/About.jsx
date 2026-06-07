@@ -1,19 +1,19 @@
 import React from 'react';
-import Image from "next/image";
 
 const About = () => {
   return (
     <section id="sobre" className="py-24 bg-white">
       <div className="max-w-5xl mx-auto px-6 md:flex items-center gap-16">
         <div className="md:w-1/2 mb-10 md:mb-0">
-           <div className="aspect-[4/5] rounded-2xl bg-zinc-100 overflow-hidden shadow-lg">
-             <Image
-               src="/imagens/about.jpeg"
-               alt="Foto de perfil"
-               className="w-full h-full object-cover"
-               fill
-             />
-           </div>
+          <div className="aspect-[4/5] rounded-2xl bg-zinc-100 overflow-hidden shadow-lg">
+            <img
+              src="/imagens/about.jpeg"
+              alt="Fundo"
+              className="w-full h-full object-cover opacity-40"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
         </div>
         <div className="md:w-1/2">
           <h2 className="text-3xl font-bold text-zinc-900 mb-6">Sobre Mim</h2>

@@ -1,15 +1,15 @@
 import React from 'react';
-import Image from "next/image";
 
 const Hero = () => {
   return (
     <section id="inicio" className="relative h-screen flex items-center justify-center bg-zinc-900">
       <div className="absolute inset-0 overflow-hidden">
-        <Image 
-          src="/imagens/hero.jpeg" 
-          alt="Fundo" 
+        <img
+          src="/imagens/hero.jpeg"
+          alt="Fundo"
           className="w-full h-full object-cover opacity-40"
-          fill
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div className="relative z-10 text-center px-6 mt-16">
