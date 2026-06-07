@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section id="inicio" className="relative h-screen flex items-center justify-center bg-zinc-900">
+    <section id="inicio" className="relative h-screen flex bg-zinc-900">
       <div className="absolute inset-0 overflow-hidden">
         <img
           src="/imagens/hero.jpeg"

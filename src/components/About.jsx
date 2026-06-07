@@ -9,7 +9,6 @@ const About = () => {
             <img
               src="/imagens/about.jpeg"
               alt="Fundo"
-              className="w-full h-full object-cover opacity-40"
               loading="lazy"
               decoding="async"
             />
