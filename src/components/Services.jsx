@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   return (
     <section id="conteudos" className="py-24 bg-zinc-50">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-zinc-900 text-center mb-16">Meus Conteúdos e Serviços</h2>
-        
+
         <div className="grid md:grid-cols-3 gap-8">
           {/* Mentoria */}
           <div className="bg-white p-10 rounded-2xl shadow-sm border border-zinc-100 hover:shadow-md transition-shadow flex flex-col h-full">
@@ -14,9 +15,9 @@ const Services = () => {
             <p className="text-zinc-600 mb-8 flex-grow">
               Encontros focados no seu momento de carreira. Vamos traçar um plano de ação para os seus desafios atuais de gestão e liderança.
             </p>
-            <a href="#mentoria" className="text-center bg-zinc-900 text-white py-3 rounded-lg font-medium hover:bg-zinc-800 transition-colors w-full">
+            <Link to="/mentoria" className="text-center bg-zinc-900 text-white py-3 rounded-lg font-medium hover:bg-zinc-800 transition-colors w-full">
               Saber Mais
-            </a>
+            </Link>
           </div>
 
           {/* Cursos */}

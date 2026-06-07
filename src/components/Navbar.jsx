@@ -17,10 +17,10 @@ const Navbar = () => {
         
         {/* Menu Desktop (Escondido no mobile) */}
         <div className="hidden md:flex space-x-8 text-sm font-medium text-zinc-500">
-          <a href="#inicio" className="hover:text-zinc-900 transition-colors">Início</a>
-          <a href="#sobre" className="hover:text-zinc-900 transition-colors">Sobre Mim</a>
-          <a href="#conteudos" className="hover:text-zinc-900 transition-colors">Conteúdos</a>
-          <a href="#depoimentos" className="hover:text-zinc-900 transition-colors">Depoimentos</a>
+          <a href="/#inicio" className="hover:text-zinc-900 transition-colors">Início</a>
+          <a href="/#sobre" className="hover:text-zinc-900 transition-colors">Sobre Mim</a>
+          <a href="/#conteudos" className="hover:text-zinc-900 transition-colors">Conteúdos</a>
+          <a href="/#depoimentos" className="hover:text-zinc-900 transition-colors">Depoimentos</a>
         </div>
 
         {/* Botão Toggle Mobile (Escondido no desktop) */}
@@ -47,10 +47,10 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-white border-t border-zinc-100 shadow-lg">
           <div className="flex flex-col px-6 py-4 space-y-4 text-base font-medium text-zinc-600">
-            <a href="#inicio" onClick={closeMenu} className="hover:text-zinc-900 transition-colors">Início</a>
-            <a href="#sobre" onClick={closeMenu} className="hover:text-zinc-900 transition-colors">Sobre Mim</a>
-            <a href="#conteudos" onClick={closeMenu} className="hover:text-zinc-900 transition-colors">Conteúdos</a>
-            <a href="#depoimentos" onClick={closeMenu} className="hover:text-zinc-900 transition-colors">Depoimentos</a>
+            <a href="/#inicio" onClick={closeMenu} className="hover:text-zinc-900 transition-colors">Início</a>
+            <a href="/#sobre" onClick={closeMenu} className="hover:text-zinc-900 transition-colors">Sobre Mim</a>
+            <a href="/#conteudos" onClick={closeMenu} className="hover:text-zinc-900 transition-colors">Conteúdos</a>
+            <a href="/#depoimentos" onClick={closeMenu} className="hover:text-zinc-900 transition-colors">Depoimentos</a>
           </div>
         </div>
       )}
