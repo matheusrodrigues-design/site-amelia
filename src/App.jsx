@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import Mentorship from './components/Mentorship';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 // Criamos um "pacote" com os componentes da página inicial
 const Home = () => {
@@ -35,6 +36,7 @@ const App = () => {
         </main>
 
         <Footer />
+        <WhatsAppButton />
       </div>
     </Router>
   );
