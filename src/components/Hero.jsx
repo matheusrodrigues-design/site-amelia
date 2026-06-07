@@ -17,8 +17,8 @@ const Hero = () => {
   
   {/* Conteúdo de Hero de exemplo para contexto */}
   <div className="relative z-10 text-center px-6">
-    <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight">Nome da Profissional</h1>
-    <p className="text-xl md:text-2xl text-zinc-300 max-w-2xl mx-auto font-light">Especialista em X | Sua Frase de Efeito</p>
+    <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight">Amélia Carneiro</h1>
+    <p className="text-xl md:text-2xl text-zinc-300 max-w-2xl mx-auto font-light">Especialista em Gestão de Pessoas | Transformando Lideranças</p>
   </div>
 </section>
   );
