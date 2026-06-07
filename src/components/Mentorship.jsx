@@ -14,7 +14,7 @@ const Mentorship = () => {
                         Mentoria Individual
                     </h2>
                     <p className="text-lg text-zinc-600 mb-8 leading-relaxed">
-                        Um acompanhamento próximo e personalizado focado no seu momento profissional. Juntas, vamos identificar seus pontos fortes, superar desafios de liderança e traçar um plano de ação para você alcançar novos cargos e resultados.
+                        Um acompanhamento próximo e personalizado focado no seu momento profissional. Juntos, vamos identificar seus pontos fortes, superar desafios de liderança e traçar um plano de ação para você alcançar novos cargos e resultados.
                     </p>
 
                     <ul className="space-y-4 mb-10 text-zinc-600">
