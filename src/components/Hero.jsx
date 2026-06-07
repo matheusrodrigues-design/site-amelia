@@ -1,4 +1,8 @@
-<section id="inicio" className="relative h-screen flex items-center justify-center bg-zinc-900">
+import React from 'react';
+
+const Hero = () => {
+  return (
+    <section id="inicio" className="relative h-screen flex items-center justify-center bg-zinc-900">
   <div className="absolute inset-0 overflow-hidden">
     <img
       src="/imagens/hero.jpeg"
@@ -7,12 +11,7 @@
       loading="lazy"
       decoding="async"
       
-      /* A modificação principal é aqui: */
       style={{ objectPosition: 'center 10%' }} 
-      /* Ajuste o valor vertical '10%' conforme necessário. 
-        Um valor menor (ex: '10%' ou '15%') moverá o foco visível para perto do topo da imagem (o rosto). 
-        Um valor maior (ex: '50%') centralizará a imagem verticalmente (padrão).
-      */
     />
   </div>
   
@@ -22,3 +21,7 @@
     <p className="text-xl md:text-2xl text-zinc-300 max-w-2xl mx-auto font-light">Especialista em X | Sua Frase de Efeito</p>
   </div>
 </section>
+  );
+};
+
+export default Hero;
