@@ -16,7 +16,6 @@ const Home = () => {
       <Hero />
       <About />
       <Services />
-      <Testimonials />
     </>
   );
 };
