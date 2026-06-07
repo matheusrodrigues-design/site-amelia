@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -6,10 +7,11 @@ const About = () => {
       <div className="max-w-5xl mx-auto px-6 md:flex items-center gap-16">
         <div className="md:w-1/2 mb-10 md:mb-0">
            <div className="aspect-[4/5] rounded-2xl bg-zinc-100 overflow-hidden shadow-lg">
-             <img 
-               src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80" 
-               alt="Foto de perfil" 
+             <Image
+               src="/imagens/about.jpeg"
+               alt="Foto de perfil"
                className="w-full h-full object-cover"
+               fill
              />
            </div>
         </div>
