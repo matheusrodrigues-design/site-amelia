@@ -58,6 +58,8 @@ const Mentorship = () => {
                             loading="lazy"
                             decoding="async"
                         />
+
+                        style={{ objectPosition: 'center 10%' }}
                     </div>
                 </div>
 
