@@ -32,8 +32,6 @@ const Mentorship = () => {
                         </li>
                     </ul>
 
-                    {/* O link da agenda entra no href abaixo. 
-              O target="_blank" faz abrir em uma nova aba para não fechar o site dela. */}
                     <a
                         href="https://calendar.app.google/FsPqTDCU1dHfWDM49"
                         target="_blank"
@@ -50,7 +48,6 @@ const Mentorship = () => {
                 {/* Lado Direito: Imagem Ilustrativa */}
                 <div className="md:w-1/2">
                     <div className="aspect-square rounded-2xl bg-zinc-100 overflow-hidden shadow-lg">
-                        {/* Idealmente uma foto dela em uma chamada de vídeo ou trabalhando com um notebook */}
                         <img
                             src="/imagens/mentorship.jpeg"
                             alt="Sessão de Mentoria Online"
