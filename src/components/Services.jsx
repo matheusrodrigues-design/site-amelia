@@ -14,7 +14,7 @@ const Services = () => {
             <p className="text-zinc-600 mb-8 flex-grow">
               Encontros focados no seu momento de carreira. Vamos traçar um plano de ação para os seus desafios atuais de gestão e liderança.
             </p>
-            <a href="#" className="text-center bg-zinc-900 text-white py-3 rounded-lg font-medium hover:bg-zinc-800 transition-colors w-full">
+            <a href="#mentoria" className="text-center bg-zinc-900 text-white py-3 rounded-lg font-medium hover:bg-zinc-800 transition-colors w-full">
               Saber Mais
             </a>
           </div>
