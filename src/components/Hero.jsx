@@ -28,16 +28,16 @@ const Hero = () => {
       </div>*/}
 
       <div className="absolute inset-0 overflow-hidden">
-    <img
-      src="/imagens/hero.jpeg"
-      alt="Fundo"
-      className="w-full h-full object-cover opacity-40"
-      loading="lazy"
-      decoding="async"
-      
-      style={{ objectPosition: 'center 10%' }} 
-    />
-  </div>
+        <img
+          src="/imagens/hero.jpeg"
+          alt="Fundo"
+          className="w-full h-full object-cover opacity-40"
+          loading="lazy"
+          decoding="async"
+
+          style={{ objectPosition: 'center 10%' }}
+        />
+      </div>
 
       {/* Conteúdo de Hero de exemplo para contexto */}
       <div className="relative z-10 text-center px-6">
