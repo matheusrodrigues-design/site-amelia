@@ -27,9 +27,9 @@ const Services = () => {
             <p className="text-zinc-600 mb-8 flex-grow">
               Treinamentos gravados direto ao ponto. Aprenda a estruturar feedbacks, conduzir avaliações e criar uma cultura forte na sua empresa.
             </p>
-            <a href="/em-construcao" className="text-center bg-zinc-900 text-white py-3 rounded-lg font-medium hover:bg-zinc-800 transition-colors w-full">
+            <Link to="/em-construcao" className="text-center bg-zinc-900 text-white py-3 rounded-lg font-medium hover:bg-zinc-800 transition-colors w-full">
               Ver Cursos
-            </a>
+            </Link>
           </div>
 
           {/* E-books */}
@@ -39,9 +39,9 @@ const Services = () => {
             <p className="text-zinc-600 mb-8 flex-grow">
               Guias em PDF, planilhas e templates prontos para você baixar e começar a usar hoje mesmo com a sua equipe.
             </p>
-            <a href="/em-construcao" className="text-center bg-zinc-900 text-white py-3 rounded-lg font-medium hover:bg-zinc-800 transition-colors w-full">
+            <Link to="/em-construcao" className="text-center bg-zinc-900 text-white py-3 rounded-lg font-medium hover:bg-zinc-800 transition-colors w-full">
               Baixar Materiais
-            </a>
+            </Link>
           </div>
         </div>
       </div>
